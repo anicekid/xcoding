@@ -10,7 +10,7 @@ else:
     from lib import transcoding
 
 def getargs():    
-    parser = argparse.ArgumentParser(description='This is an encoding converter. Suport:base64、url、hex、bin') #获取解析器对象,description为使用-h参数时输出的描述信息
+    parser = argparse.ArgumentParser(description='This is an encoding converter. Support:base64、url、hex、bin') #获取解析器对象,description为使用-h参数时输出的描述信息
     parser.add_argument('-b64e', '--base64encode', dest='b64e', type=transcoding.base64encode, help='encode your string by base64', action='store')
     parser.add_argument('-b64d', '--base64decode', dest='b64d', type=transcoding.base64decode, help='decode your string by base64', action='store')
     parser.add_argument('-ue', '--urlencode', dest='ue', type=transcoding.urlencode, help='urlencode')
