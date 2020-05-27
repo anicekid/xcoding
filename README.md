@@ -23,11 +23,11 @@ python3 xcoding.py -b64e "Your string"					#base64encode
 
 For linux user:
 
-Your can create a soft link with xcoding
+You can create a soft link with xcoding
 
 sudo ln -s xcoding_path /usr/bin/xcoding
 
-then you can use xcoding directly by xcoding instead of python3 xcoding.
+then you can use xcoding instead of python3 xcoding.
 
 example:
 
